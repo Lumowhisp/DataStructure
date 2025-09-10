@@ -1,1 +1,37 @@
-.vscode
+# Build files
+*.out
+*.o
+*.obj
+*.exe
+
+# CMake / Make
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# MacOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Binary files
+*.a
+*.so
+*.dll
+*.class
+
+# Ignore compiled test files if any
+/test
