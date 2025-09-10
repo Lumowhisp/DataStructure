@@ -17,6 +17,25 @@ int main(){
 
     } 
     cout<<"]";
+    //searching Array
+    //Simple Method
+    //logic:-
+    //We will be storing element to be searched in target var then traverse the array and copare each element with the the target if found element searched
+    int target;
+    bool isFound=false;
+    cout<<"Enter Target:";
+    cin>>target;
+    int i;
+    int size=sizeof(arr)/sizeof(arr[0]);
+    for(i=0;i<size;i++){
+        if(arr[i]==target){
+            isFound=true;
+            break;
+        }
+    }
+    if(isFound){
+        cout<<"Element found at index"<<i<<endl;
+    }
 
 
 }
