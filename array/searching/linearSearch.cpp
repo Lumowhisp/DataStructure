@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     //Array input 
-    int arr[10];
+    int arr[5];
     for(int i=0;i<5;i++){
         cout<<"Enter Number:"<<i+1<<endl;
         cin>>arr[i];
@@ -35,6 +35,9 @@ int main(){
     }
     if(isFound){
         cout<<"Element found at index"<<i<<endl;
+    }
+    else{
+        cout<<"Element not found"<<endl;
     }
 
 
