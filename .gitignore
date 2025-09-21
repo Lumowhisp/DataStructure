@@ -3,6 +3,9 @@
 *.o
 *.obj
 *.exe
+*
+!*.cpp
+!*.h
 
 # CMake / Make
 build/
@@ -34,4 +37,8 @@ Makefile
 *.class
 
 # Ignore compiled test files if any
-/test 
+**/*.out
+**/*.o
+**/*.obj
+**/*.exe
+**/*.*~
