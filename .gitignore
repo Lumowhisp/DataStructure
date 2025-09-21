@@ -34,4 +34,4 @@ Makefile
 *.class
 
 # Ignore compiled test files if any
-/test
+/test 
